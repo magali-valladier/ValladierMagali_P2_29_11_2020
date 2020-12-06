@@ -1,0 +1,36 @@
+/* FEUILLE DE STYLE SITE RESERVIA */
+
+body
+{
+    width: auto;
+    font-family: 'Raleway' sans-serif;
+}
+
+/* HEADER */
+
+header
+{
+    display: flex;
+}
+
+#main-menu nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+#main-menu li
+{
+    display: inline;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
+}
