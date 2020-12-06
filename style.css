@@ -1,0 +1,43 @@
+/* FEUILLE DE STYLE SITE RESERVIA */
+
+body
+{
+    width: auto;
+    font-family: "Raleway" sans-serif;
+}
+
+/* HEADER */
+
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+#navbar nav ul li
+{
+    list-style-type: none;
+    padding: 20px;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+li a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC; 
+}
+.sign-in a
+{
+    color: #0065FC;
+}
+.sign-in a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC; 
+}
