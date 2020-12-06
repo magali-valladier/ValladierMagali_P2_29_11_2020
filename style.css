@@ -3,34 +3,41 @@
 body
 {
     width: auto;
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway" sans-serif;
 }
 
 /* HEADER */
 
-header
-{
-    display: flex;
-}
-
-nav
+#navbar
 {
     display: flex;
     justify-content: space-between;
 }
-
 ul
 {
     display: flex;
 }
-
-li
+#navbar nav ul li
 {
     list-style-type: none;
+    padding: 20px;
 }
-
 li a
 {
     text-decoration: none;
     color: black;
+}
+li a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC; 
+}
+.sign-in a
+{
+    color: #0065FC;
+}
+.sign-in a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC; 
 }
