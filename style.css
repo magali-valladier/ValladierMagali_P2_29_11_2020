@@ -13,15 +13,15 @@ header
     display: flex;
 }
 
-#main-menu nav ul
+nav
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-#main-menu li
+ul
 {
-    display: inline;
+    display: flex;
 }
 
 li
