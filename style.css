@@ -3,7 +3,9 @@
 body
 {
     width: auto;
-    font-family: "Raleway" sans-serif;
+    font-family: Raleway, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* HEADER */
@@ -41,3 +43,6 @@ li a:hover
     color: #0065FC;
     border-top: 3px solid #0065FC; 
 }
+
+/* MAIN TITLE */
+
