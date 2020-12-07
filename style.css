@@ -3,7 +3,9 @@
 body
 {
     width: auto;
-    font-family: "Raleway" sans-serif;
+    font-family: Raleway, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* HEADER */
@@ -41,3 +43,37 @@ li a:hover
     color: #0065FC;
     border-top: 3px solid #0065FC; 
 }
+
+/* MAIN TITLE */
+
+/* SEARCH SECTION */
+
+#search
+{
+    padding: 0px;
+}
+#search-bar i
+{
+   border: 10px solid #F2F2F2;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px; 
+   
+}
+input
+{
+    border-right: none;
+    border-left: none;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+    height: 2.7em;
+}
+.search-button
+{
+    border: 10px solid #0065FC;
+    background: #0065FC;
+    color: #ffffff;
+    border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   height: 2.7em;
+}
+
