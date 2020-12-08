@@ -172,11 +172,16 @@ input
     width: 230px;
     padding: 0px 20px 20px 20px;
 }
+.rooms p, .rooms h4
+{
+    margin: 5px;
+}
 .rooms img
 {
     width: 250px;
     height: 125px;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .rooms-title
 {
