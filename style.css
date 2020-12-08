@@ -166,6 +166,11 @@ input
     flex-wrap: wrap;
     justify-content: center;
 }
+.rooms-info
+{
+    border: 4px solid #ffffff;
+   
+}
 .rooms
 {
     border-radius: 25px;
@@ -182,6 +187,7 @@ input
     height: 125px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border: 2px solid #ffffff;
 }
 .rooms-title
 {
