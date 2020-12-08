@@ -124,4 +124,44 @@ input
     height: 1.5em;
     width: 1.5em;
 }
+/* ROOMS */
 
+#rooms
+{
+    background: #F2F2F2;
+    border-radius: 25px;
+    width: 900px;
+    height: 600px;
+}
+#main-rooms
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rooms
+{
+    border-radius: 25px;
+    width: 255px;
+    padding: 0px 20px 20px 20px;
+    background: #ffffff;
+    background-position: center;
+}
+.rooms img
+{
+    width: 250px;
+    height: 125px;
+    border-radius: 25px;
+}
+.rooms-title
+{
+    margin: 20px 0px 0px 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.more 
+{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
