@@ -198,3 +198,10 @@ aside a
 {
     text-decoration: none;
 }
+/* ACTIVITIES */
+
+.visit img
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
