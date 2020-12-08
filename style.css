@@ -57,16 +57,17 @@ li a:hover
 {
     margin-top: 0px;
 }
-#main-title h1
+#main-title h2
 {
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 /* SEARCH SECTION */
 
 #search
 {
-    padding: 0px;
+    padding: 0px;margin-left: 50px;
 }
 #search-bar i
 {
@@ -95,6 +96,10 @@ input
 
 /* FILTER SECTION */
 
+#filter
+{
+    margin-left: 50px;
+}
 .filter
 {
     display: flex;
@@ -113,6 +118,7 @@ input
 .filter-title
 {
     font-weight: bold;
+    margin-right: 20px;
 }
 .price i, .family i, .romantic i, .animal i
 {
@@ -121,7 +127,7 @@ input
     border: 15px solid #DEEBFF;
     border-radius: 100%;
 }
-.price h2, .family h2, .romantic h2, .animal h2
+.price h3, .family h3, .romantic h3, .animal h3
 {
     margin-right: 20px;
     margin-left: 20px;
