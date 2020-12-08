@@ -158,7 +158,7 @@ input
     background: #F2F2F2;
     border-radius: 25px;
     width: 60%;
-    height: 700px;
+    height: 600px;
  }
 #main-rooms
 {
@@ -166,16 +166,14 @@ input
     flex-wrap: wrap;
     justify-content: center;
 }
-.rooms-info
-{
-    border: 4px solid #ffffff;
-   
-}
+
 .rooms
 {
     border-radius: 25px;
     width: 230px;
-    padding: 0px 20px 20px 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 10px;
 }
 .rooms p, .rooms h4
 {
