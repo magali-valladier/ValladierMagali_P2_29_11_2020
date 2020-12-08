@@ -104,21 +104,21 @@ input
 {
     display: flex;
     align-items: center;
-    margin: 15px;
+    margin-top: 30px;
 }
 .price, .family, .romantic, .animal
 {
     display: flex;
     align-items: center;
-    margin-right: 40px;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     border-left: none;
+    margin-right: 25px;
 }
 .filter-title
 {
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .price i, .family i, .romantic i, .animal i
 {
@@ -148,12 +148,17 @@ input
 }
 /* ROOMS */
 
+#container
+{
+    display: flex;
+    justify-content: space-around;
+}
 #rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 900px;
-    height: 600px;
+    width: 60%;
+    height: 700px;
  }
 #main-rooms
 {
@@ -164,10 +169,8 @@ input
 .rooms
 {
     border-radius: 25px;
-    width: 255px;
+    width: 230px;
     padding: 0px 20px 20px 20px;
-    background: #ffffff;
-    background-position: center;
 }
 .rooms img
 {
@@ -181,11 +184,26 @@ input
     padding-top: 20px;
     font-weight: bold;
 }
-.more 
+.rooms a
 {
     text-decoration: none;
+    color: black;
+}
+.rooms a i
+{
+    color: #0065FC;
+}
+.more a
+{
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    padding: 20px;
+   
+}
+.more
+{
+ padding-top: 20px;
+ margin-left: 20px;
 }
 /* ASIDE */
 
@@ -202,7 +220,7 @@ aside
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
-    width: 400px;
+    width: 35%;
     
     
 }
@@ -218,9 +236,14 @@ aside
     background: #ffffff;
     border-radius: 25px;
 }
-aside a
+.aside a
 {
     text-decoration: none;
+    color: black;
+}
+.aside a i
+{
+    color: #0065FC;
 }
 /* ACTIVITIES */
 
