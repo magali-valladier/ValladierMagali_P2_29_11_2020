@@ -152,19 +152,19 @@ input
 {
     display: flex;
     justify-content: space-around;
-}
+    }
 #rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 60%;
+    width: 850px;
     height: 600px;
  }
 #main-rooms
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .rooms
@@ -189,7 +189,7 @@ input
 }
 .rooms-title
 {
-    margin: 20px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
     padding-top: 20px;
     font-weight: bold;
 }
@@ -224,14 +224,11 @@ input
 }
 aside
 {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    flex-flow: column;
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
-    width: 35%;
-    
-    
 }
 .aside-title
 {
