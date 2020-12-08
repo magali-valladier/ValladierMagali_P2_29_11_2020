@@ -165,3 +165,36 @@ input
     font-weight: bold;
     padding: 20px;
 }
+/* ASIDE */
+
+.aside img
+{
+    width: 125px;
+    height: 125px;
+    border-radius: 25px;
+}
+aside
+{
+    display: inline-block;
+    vertical-align: middle;
+    background: #F2F2F2;
+    border-radius: 25px;
+    
+    
+}
+.aside-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aside
+{
+    display: flex;
+    background: #ffffff;
+    border-radius: 25px;
+}
+aside a
+{
+    text-decoration: none;
+}
