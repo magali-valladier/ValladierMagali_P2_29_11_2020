@@ -124,4 +124,36 @@ input
     height: 1.5em;
     width: 1.5em;
 }
+/* ROOMS */
 
+#rooms
+{
+    background: #F2F2F2;
+    border-radius: 25px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rooms
+{
+    background: #ffffff;
+    border-radius: 25px;
+    width: 255px;
+    padding-left: 20px;
+}
+.rooms img
+{
+    width: 250px;
+    height: 125px;
+    border-radius: 25px;
+}
+.rooms-title
+{
+    margin: 20px 0px 0px 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.rooms a
+{
+    text-decoration: none;
+}
