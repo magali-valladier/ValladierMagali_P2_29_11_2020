@@ -137,12 +137,16 @@ input
     display: flex;
     align-items: center;
 }
-.info i
+#info i
 {
     color: #0065FC;
-    background: #ffffff;
-    border: 1px solid #F2F2F2;
+    text-align: center;
+}
+#info
+{
+     border: 3px solid grey;
     border-radius: 100%;
+    margin-right: 20px;
     height: 1.5em;
     width: 1.5em;
 }
