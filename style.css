@@ -131,15 +131,21 @@ input
     background: #F2F2F2;
     border-radius: 25px;
     width: 900px;
+    height: 600px;
+}
+#main-rooms
+{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .rooms
 {
-    background: #ffffff;
     border-radius: 25px;
     width: 255px;
-    padding-left: 20px;
+    padding: 0px 20px 20px 20px;
+    background: #ffffff;
+    background-position: center;
 }
 .rooms img
 {
@@ -153,7 +159,9 @@ input
     padding-top: 20px;
     font-weight: bold;
 }
-.rooms a
+.more 
 {
     text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
 }
