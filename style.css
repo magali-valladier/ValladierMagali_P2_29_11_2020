@@ -2,13 +2,17 @@
 
 body
 {
-    width: auto;
+    margin: 0;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
 }
 
 /* HEADER */
 
+header
+{
+    margin: 50px;
+}
 #navbar
 {
     display: flex;
@@ -45,11 +49,25 @@ li a:hover
 
 /* MAIN TITLE */
 
+#main-title
+{
+    margin-left: 50px;
+}
+#main-title p
+{
+    margin-top: 0px;
+}
+#main-title h2
+{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
 /* SEARCH SECTION */
 
 #search
 {
-    padding: 0px;
+    padding: 0px;margin-left: 50px;
 }
 #search-bar i
 {
@@ -78,24 +96,29 @@ input
 
 /* FILTER SECTION */
 
+#filter
+{
+    margin-left: 50px;
+}
 .filter
 {
     display: flex;
     align-items: center;
-    margin: 15px;
+    margin-top: 30px;
 }
 .price, .family, .romantic, .animal
 {
     display: flex;
     align-items: center;
-    margin-right: 40px;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     border-left: none;
+    margin-right: 25px;
 }
 .filter-title
 {
     font-weight: bold;
+    margin-right: 15px;
 }
 .price i, .family i, .romantic i, .animal i
 {
@@ -104,7 +127,7 @@ input
     border: 15px solid #DEEBFF;
     border-radius: 100%;
 }
-.price h2, .family h2, .romantic h2, .animal h2
+.price h3, .family h3, .romantic h3, .animal h3
 {
     margin-right: 20px;
     margin-left: 20px;
@@ -125,13 +148,18 @@ input
 }
 /* ROOMS */
 
+#container
+{
+    display: flex;
+    justify-content: space-around;
+}
 #rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 900px;
-    height: 600px;
-}
+    width: 60%;
+    height: 700px;
+ }
 #main-rooms
 {
     display: flex;
@@ -141,10 +169,8 @@ input
 .rooms
 {
     border-radius: 25px;
-    width: 255px;
+    width: 230px;
     padding: 0px 20px 20px 20px;
-    background: #ffffff;
-    background-position: center;
 }
 .rooms img
 {
@@ -158,11 +184,26 @@ input
     padding-top: 20px;
     font-weight: bold;
 }
-.more 
+.rooms a
 {
     text-decoration: none;
+    color: black;
+}
+.rooms a i
+{
+    color: #0065FC;
+}
+.more a
+{
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    padding: 20px;
+   
+}
+.more
+{
+ padding-top: 20px;
+ margin-left: 20px;
 }
 /* ASIDE */
 
@@ -178,6 +219,8 @@ aside
     vertical-align: middle;
     background: #F2F2F2;
     border-radius: 25px;
+    float: right;
+    width: 35%;
     
     
 }
@@ -193,9 +236,14 @@ aside
     background: #ffffff;
     border-radius: 25px;
 }
-aside a
+.aside a
 {
     text-decoration: none;
+    color: black;
+}
+.aside a i
+{
+    color: #0065FC;
 }
 /* ACTIVITIES */
 
