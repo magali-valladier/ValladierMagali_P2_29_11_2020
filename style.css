@@ -67,8 +67,14 @@ li a:hover
 
 #search
 {
-    padding: 0px;margin-left: 50px;
+        margin-left: 50px;
 }
+#search-bar
+{
+    display: flex;
+    align-items: center;
+}
+
 #search-bar i
 {
    border: 10px solid #F2F2F2;
@@ -79,7 +85,7 @@ li a:hover
 input
 {
     border: 2px solid #F2F2F2;
-    height: 2.4em;
+    height: 2.7em;
         
 }
 .search-button
@@ -112,6 +118,7 @@ input
     border-radius: 50px;
     border-left: none;
     margin-right: 25px;
+    height: 2.8em;
 }
 .filter-title
 {
@@ -138,9 +145,12 @@ input
 #info
 {
     color: #0065FC;
-   padding: 0 5px;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #D3D3D3;
     border-radius: 100%;
+}
+#info i
+{
+    padding: 0 5px;
 }
 .info p
 {
