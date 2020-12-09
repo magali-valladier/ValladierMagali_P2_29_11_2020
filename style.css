@@ -146,15 +146,14 @@ input
     align-items: center;
     padding: 10px;
 }
-#info
+.fa-info 
 {
     color: #0065FC;
     border: 1px solid #D3D3D3;
     border-radius: 100%;
-}
-#info i
-{
+    font-weight: normal;
     padding: 0 5px;
+    font-size: small;
 }
 .info p
 {
@@ -173,7 +172,7 @@ input
     background: #F2F2F2;
     border-radius: 25px;
     width: 60%;
-    height: 700px;
+    height: 600px;
  }
 #main-rooms
 {
@@ -202,15 +201,20 @@ input
 {
     margin: 50px 50px 20px 50px;
     font-weight: bold;
+    font-size: 1em;
 }
 .rooms a
 {
     text-decoration: none;
     color: black;
 }
-.rooms a i
+.fa-star
 {
     color: #0065FC;
+}
+.fa-star.grey
+{
+    color: #F2F2F2;
 }
 .rooms figure
 {
@@ -241,7 +245,8 @@ figcaption
 {
     width: 125px;
     height: 125px;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     object-fit: cover;
 }
 aside
@@ -252,30 +257,32 @@ aside
     border-radius: 25px;
     float: right;
     width: 35%;
-    
-    
+    height: 600px;
+    margin-right: 50px;
 }
 .aside-title
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.5em;
 }
-.aside
+.aside figure
 {
     display: flex;
+    {
+    margin: 0;
     background: #ffffff;
+    border: 5px solid #ffffff;
     border-radius: 25px;
 }
-.aside a
+#aside a
 {
     text-decoration: none;
     color: black;
 }
-.aside a i
-{
-    color: #0065FC;
-}
+
 /* ACTIVITIES */
 
 .visit img
