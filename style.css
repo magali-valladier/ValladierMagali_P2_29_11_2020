@@ -170,7 +170,7 @@ input
     background: #F2F2F2;
     border-radius: 25px;
     width: 850px;
-    height: 600px;
+    height: 650px;
  }
 #main-rooms
 {
@@ -183,7 +183,8 @@ input
 .rooms
 {
     border-radius: 25px;
-    width: 230px;
+    width: 240px;
+    height: 230px;
     padding: 0px 20px 20px 20px;
 }
 .rooms p, .rooms h4
@@ -192,7 +193,7 @@ input
 }
 .rooms img
 {
-    width: 240px;
+    width: 230px;
     height: 125px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -222,6 +223,7 @@ input
 figcaption
 {
     font-size: 1em;
+    padding-left: 5px;
 }
 .more a
 {
@@ -232,9 +234,10 @@ figcaption
 }
 .more
 {
- padding-top: 20px;
+ 
  margin-left: 20px;
 }
+
 /* ASIDE */
 
 .aside img
