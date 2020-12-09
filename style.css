@@ -141,6 +141,7 @@ input
 {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 #info
 {
@@ -161,8 +162,9 @@ input
 #container
 {
     display: flex;
-    justify-content: space-around;
-    }
+    justify-content: space-between;
+    margin-left: 50px;
+}
 #rooms
 {
     background: #F2F2F2;
@@ -173,17 +175,16 @@ input
 #main-rooms
 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .rooms
 {
     border-radius: 25px;
     width: 230px;
-    background: #ffffff;
-    border-radius: 20px;
-    margin: 10px;
+    padding: 0px 20px 20px 20px;
 }
 .rooms p, .rooms h4
 {
@@ -191,15 +192,14 @@ input
 }
 .rooms img
 {
-    width: 250px;
+    width: 240px;
     height: 125px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    border: 2px solid #ffffff;
 }
 .rooms-title
 {
-    margin: 0px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
     padding-top: 20px;
     font-weight: bold;
 }
@@ -211,6 +211,17 @@ input
 .rooms a i
 {
     color: #0065FC;
+}
+.rooms figure
+{
+    margin: 0;
+    background: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 25px;
+}
+figcaption
+{
+    font-size: 1em;
 }
 .more a
 {
@@ -231,6 +242,7 @@ input
     width: 125px;
     height: 125px;
     border-radius: 25px;
+    object-fit: cover;
 }
 aside
 {
