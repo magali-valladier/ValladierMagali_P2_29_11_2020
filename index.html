@@ -32,7 +32,9 @@
        <section id="search">
             <div id="search-bar">
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" placeholder="Marseille,France" name="search">
+                <form action="">
+                <input type="search" type="submit" placeholder="Destination" value="Marseille, France">
+                </form>
                 <button class="search-button" type="button"> Rechercher </button>
             </div>
         </section>
@@ -60,7 +62,7 @@
             </div>
             </div>
             <div class="info">
-                <i class="fas fa-info"></i>
+                <span id="info"><i class="fas fa-info"></i></span>
                 <p> Plus de 500 logements sont disponibles dans cette ville </p>
             </div>
         </section>
@@ -73,12 +75,10 @@
             <div id="main-rooms">
             <div class="rooms">
                 <a href="">
-                    <div class="rooms-info">
-                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge de la canebiere">
-                <h4> Auberge de la Cannebière </h4>
-                <p> Nuit à partir de <strong>25€</strong> </p>
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    </div>
+                <figure><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge de la canebiere"></figure>
+                <caption><h4> Auberge de la Cannebière </h4>
+                <p> Nuit à partir de <strong>25€</strong> </p></caption>
+                <span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span class="last"><i class="fas fa-star"></i></span>
                 </a>
             </div>
             <div class="rooms">
