@@ -176,7 +176,7 @@ input
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+   
 }
 .rooms
 {
@@ -194,10 +194,11 @@ input
     height: 125px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: cover;
 }
 .rooms-title
 {
-    margin: 30px;
+    margin: 50px 50px 20px 50px;
     font-weight: bold;
 }
 .rooms a
@@ -228,6 +229,7 @@ input
     width: 125px;
     height: 125px;
     border-radius: 25px;
+    object-fit: cover;
 }
 aside
 {
