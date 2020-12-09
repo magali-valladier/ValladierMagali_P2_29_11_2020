@@ -11,7 +11,7 @@ body
 
 header
 {
-    margin: 50px;
+    margin-left: 50px;
 }
 #navbar
 {
@@ -78,11 +78,9 @@ li a:hover
 }
 input
 {
-    border-right: none;
-    border-left: none;
-    border-top: 2px #F2F2F2 solid;
-    border-bottom: 2px #F2F2F2 solid;
-    height: 2.7em;
+    border: 2px solid #F2F2F2;
+    height: 2.4em;
+        
 }
 .search-button
 {
@@ -137,18 +135,16 @@ input
     display: flex;
     align-items: center;
 }
-#info i
-{
-    color: #0065FC;
-    text-align: center;
-}
 #info
 {
-     border: 3px solid grey;
+    color: #0065FC;
+   padding: 0 5px;
+    border: 1px solid #F2F2F2;
     border-radius: 100%;
-    margin-right: 20px;
-    height: 1.5em;
-    width: 1.5em;
+}
+.info p
+{
+    padding-left: 10px;
 }
 /* ROOMS */
 
