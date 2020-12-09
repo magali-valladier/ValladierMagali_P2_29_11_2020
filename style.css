@@ -141,6 +141,7 @@ input
 {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 #info
 {
@@ -161,7 +162,8 @@ input
 #container
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 50px;
 }
 #rooms
 {
@@ -195,8 +197,7 @@ input
 }
 .rooms-title
 {
-    margin: 20px 0px 0px 20px;
-    padding-top: 20px;
+    margin: 30px;
     font-weight: bold;
 }
 .rooms a
