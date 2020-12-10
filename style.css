@@ -317,10 +317,20 @@ aside
 }
 /* ACTIVITIES */
 
+#activities
+{
+    margin-left: 50px;
+}
+#main-visit
+{
+    display: flex;
+}
 .visit img
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: contain;
+    width: 300px;
 }
 /* FOOTER */
 
