@@ -228,6 +228,7 @@ input
 figcaption
 {
     font-size: 1em;
+    padding-left: 10px;
 }
 .more a
 {
@@ -258,9 +259,9 @@ aside
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
-    width: 35%;
+    width: 400px%;
     height: 600px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .aside-title
 {
@@ -268,13 +269,17 @@ aside
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     font-size: 1.5em;
+   
+}
+.aside p
+{
+     margin-top: 24px;
 }
 .aside figure
 {
     display: flex;
-    margin: 0;
     background: #ffffff;
     border: 5px solid #ffffff;
     border-radius: 25px;
