@@ -40,6 +40,10 @@ li:hover
 {
 border-top: 3px solid #0065FC;
 }
+li:focus
+{
+border-top: 3px solid #0065FC;
+}
 .sign-in a
 {
     color: #0065FC;
@@ -47,7 +51,6 @@ border-top: 3px solid #0065FC;
 .sign-in a:hover
 {
     color: #0065FC;
-    border-top: 3px solid #0065FC; 
 }
 
 /* MAIN TITLE */
@@ -228,6 +231,7 @@ input
     background: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
 }
 .rooms figcaption p
 {
@@ -288,6 +292,7 @@ aside
     background: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
 }
 #aside
 {
