@@ -150,7 +150,9 @@ input
     font-weight: normal;
     padding: 0 5px;
     font-size: small;
+  
 }
+
 .info p
 {
     padding-left: 10px;
@@ -258,7 +260,7 @@ aside
     border-radius: 25px;
     float: right;
     width: 35%;
-    
+    height: 600px;
     margin-right: 50px;
 }
 .aside-title
@@ -266,9 +268,15 @@ aside
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     font-weight: bold;
-    padding: 0px 20px 0px 20px;
+    padding: 20px;
     font-size: 1.5em;
+   
+}
+.aside p
+{
+     margin-top: 24px;
 }
 .aside figure
 {
@@ -277,33 +285,19 @@ aside
     border: 2px solid #ffffff;
     border-radius: 25px;
 }
-#aside a
-{
-    text-decoration: none;
-    color: black;
-}
-.aside
-{
-    width: 400px;
-}
 #aside
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.aside figcaption h4
+#aside a
 {
-    margin: 0;
+    text-decoration: none;
+    color: black;
 }
-.aside figcaption p
-{
-    margin-top: 5px;
-}
-.aside span
-{
-    margin-top: 30px;
-}
+
 /* ACTIVITIES */
 
 .visit img
