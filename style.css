@@ -325,12 +325,37 @@ aside
 {
     display: flex;
 }
-.visit img
+#main-visit img
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    object-fit: contain;
+    object-fit: cover;
     width: 300px;
+}
+.vieuxp img, .calanques img
+{
+    height: 450px;
+}
+.pomegues img, .frioul img, .dame img, .longchamp img
+{
+    height: 200px;
+}
+
+#main-visit a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+#main-visit figcaption
+{
+     margin-left: 10px;
+}
+.vieuxp figure, .calanques figure, .pomegues figure, .frioul figure, .dame figure, .longchamp figure
+{
+  border: 1px solid transparent;
+  box-shadow: 8px 8px 12px #aaa;
+  border-radius: 25px;
 }
 /* FOOTER */
 
