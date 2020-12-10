@@ -213,11 +213,14 @@ input
 .fa-star
 {
     color: #0065FC;
+    font-size: small;
+    padding-left: 5px;
 }
 .fa-star.grey
 {
     color: #F2F2F2;
-}
+     font-size: small;
+}     
 .rooms figure
 {
     margin: 0;
@@ -228,6 +231,10 @@ input
 .rooms figcaption p
 {
     font-size: 0.8em;
+}
+.rooms figcaption
+{
+    margin-left: 5px;
 }
 .more a
 {
