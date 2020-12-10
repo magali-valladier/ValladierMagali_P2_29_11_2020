@@ -258,7 +258,7 @@ figcaption
 aside
 {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
@@ -269,6 +269,7 @@ aside
 .aside-title
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
     padding: 20px;
@@ -277,7 +278,6 @@ aside
 .aside figure
 {
     display: flex;
-    {
     margin: 0;
     background: #ffffff;
     border: 5px solid #ffffff;
@@ -288,7 +288,17 @@ aside
     text-decoration: none;
     color: black;
 }
-
+.aside
+{
+    width: 400px;
+}
+#aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 /* ACTIVITIES */
 
 .visit img
