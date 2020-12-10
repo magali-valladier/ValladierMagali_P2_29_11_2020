@@ -330,15 +330,6 @@ aside
 {
     display: flex;
 }
-.frioul, .longchamp, .pomegues, .dame
-{
-    display: flex;
-    flex-direction: column;
-}
-.frioul, .longchamp
-{
-    justify-content: flex-end;
-}
 #main-visit img
 {
     border-top-left-radius: 25px;
@@ -354,9 +345,10 @@ aside
 {
     height: 200px;
 }
-.frioul img
+.frioul img, .longchamp img
 {
     height: 170px;
+    align-content: center;
 }
 #main-visit a 
 {
@@ -374,6 +366,7 @@ aside
   box-shadow: 8px 8px 12px #aaa;
   border-radius: 25px;
 }
+
 /* FOOTER */
 
 footer
