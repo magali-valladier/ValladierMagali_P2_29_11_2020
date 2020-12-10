@@ -186,7 +186,7 @@ input
 {
     border-radius: 25px;
     width: 240px;
-    height: 230px;
+    height: 235px;
     padding: 0px 20px 20px 20px;
 }
 .rooms p, .rooms h4
@@ -195,7 +195,7 @@ input
 }
 .rooms img
 {
-    width: 230px;
+    width: 235px;
     height: 125px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -224,13 +224,12 @@ input
 {
     margin: 0;
     background: #ffffff;
-    border: 5px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 25px;
 }
-figcaption
+.rooms figcaption p
 {
-    font-size: 1em;
-    padding-left: 5px;
+    font-size: 0.8em;
 }
 .more a
 {
@@ -263,7 +262,7 @@ aside
     border-radius: 25px;
     float: right;
     width: 35%;
-    height: 600px;
+    
     margin-right: 50px;
 }
 .aside-title
@@ -272,15 +271,14 @@ aside
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
     font-size: 1.5em;
 }
 .aside figure
 {
     display: flex;
-    margin: 0;
     background: #ffffff;
-    border: 5px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 25px;
 }
 #aside a
@@ -296,8 +294,19 @@ aside
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+}
+.aside figcaption h4
+{
+    margin: 0;
+}
+.aside figcaption p
+{
+    margin-top: 5px;
+}
+.aside span
+{
+    margin-top: 30px;
 }
 /* ACTIVITIES */
 
