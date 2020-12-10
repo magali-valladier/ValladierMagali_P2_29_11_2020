@@ -113,6 +113,10 @@ input
     align-items: center;
     margin-top: 30px;
 }
+.price:hover, .family:hover, .romantic:hover, .animal:hover
+{
+    background: #DEEBFF;
+}
 .price, .family, .romantic, .animal
 {
     display: flex;
@@ -203,6 +207,13 @@ input
     border-top-right-radius: 25px;
     object-fit: cover;
 }
+.rooms img:hover
+{
+    width: 235px;
+    height: 125px;
+    border-radius: 100%;
+    object-fit: cover;
+}
 .rooms-title
 {
     margin: 20px 0px 20px 70px;
@@ -260,6 +271,21 @@ input
     height: 125px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    object-fit: cover;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.aside img:hover
+{
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+{
+    width: 235px;
+    height: 125px;
+   border-radius: 100%;
     object-fit: cover;
 }
 aside
@@ -329,6 +355,7 @@ aside
 #main-visit
 {
     display: flex;
+
 }
 #main-visit img
 {
@@ -366,7 +393,16 @@ aside
   box-shadow: 8px 8px 12px #aaa;
   border-radius: 25px;
 }
-
+#main-visit img
+{
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#main-visit img:hover
+{
+opacity: .5;
+}
 /* FOOTER */
 
 footer
