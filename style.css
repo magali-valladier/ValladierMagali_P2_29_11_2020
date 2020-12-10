@@ -170,7 +170,7 @@ input
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 60%;
+    width: 990px;
     height: 600px;
  }
 #main-rooms
@@ -267,7 +267,7 @@ aside
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
-    width: 35%;
+    width: 400px;
     height: 600px;
     margin-right: 50px;
 }
