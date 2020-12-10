@@ -154,7 +154,9 @@ input
     font-weight: normal;
     padding: 0 5px;
     font-size: small;
+  
 }
+
 .info p
 {
     padding-left: 10px;
@@ -251,8 +253,8 @@ figcaption
 }
 aside
 {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
@@ -264,6 +266,7 @@ aside
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-weight: bold;
     padding: 20px;
     font-size: 1.5em;
@@ -271,17 +274,28 @@ aside
 .aside figure
 {
     display: flex;
-    {
     margin: 0;
     background: #ffffff;
     border: 5px solid #ffffff;
     border-radius: 25px;
+}
+#aside
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 #aside a
 {
     text-decoration: none;
     color: black;
 }
+.aside
+{
+    width: 400px;
+}
+
 
 /* ACTIVITIES */
 
