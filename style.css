@@ -2,7 +2,8 @@
 
 body
 {
-    margin: 0;
+    width: 1550px;
+    margin: auto;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
 }
@@ -432,4 +433,25 @@ footer
 .footer h4
 {
     font-weight: bold;
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-device-width:980px)
+{
+    body 
+    {
+    width: auto;
+    margin: auto;
+    }
+   header
+   {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   nav ul 
+   {
+       display: flex;
+      
+   }
 }
