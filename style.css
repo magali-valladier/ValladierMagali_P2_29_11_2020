@@ -441,17 +441,111 @@ footer
     body 
     {
     width: auto;
-    margin: auto;
+    margin-left: 15px;
     }
-   header
+    header
+    {
+        margin: auto;
+    }
+    h1
+    {
+        margin: 0;
+    }
+   #navbar
    {
        display: flex;
-       justify-content: space-between;
        flex-wrap: wrap;
    }
-   nav ul 
+   nav
    {
        display: flex;
-      
+       justify-content: flex-start;
+   }
+   nav ul
+   {
+       margin: 0;
+       padding: 0;
+   }
+   li:hover
+{
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+li:focus
+{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+}
+#search
+{
+    margin: 0;
+}
+   .sign-in
+   {
+       order: -2;
+       width: 100%;
+       justify-content: flex-end;
+       
+   }
+   #filter
+   {
+       margin: 0;
+   }
+   .filter
+   {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   .filter-title
+   {
+       width: 100%;
+   }
+   #container
+   {
+       display: flex;
+       flex-direction: column;
+       height: auto;
+   }
+   aside
+   {
+       order: -1;
+       width: 100%;
+       margin: 0;
+   }
+   .price, .family, .romantic
+   {
+     margin-bottom: 15px;
+   }
+   #rooms
+   {
+       
+       display: flex;
+       flex-direction: column;
+       background: none;
+       height: auto;
+   }
+   #activities
+   {
+     
+       display: flex;
+       flex-direction: column;
+       height: auto;
+   }
+   footer
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       padding: 0;
+   }
+   .footer
+   {
+       padding: 0;
+   }
+   .footer a
+   {
+       padding: 5px;
+       width: 100%;
    }
 }
