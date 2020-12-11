@@ -33,6 +33,12 @@ li a
     text-decoration: none;
     color: black;
 }
+#menu
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 li a:hover
 {
     color: #0065FC;
@@ -45,13 +51,25 @@ li:focus
 {
 border-top: 3px solid #0065FC;
 }
+.sign-in
+{
+    display: flex;
+    align-items: center;
+}
 .sign-in a
 {
     color: #0065FC;
+     text-decoration: none;
+     font-weight: bold;
 }
 .sign-in a:hover
 {
     color: #0065FC;
+    
+}
+#menu span:hover
+{
+    border-top: 3px solid #0065FC;
 }
 
 /* MAIN TITLE */
@@ -446,8 +464,9 @@ footer
     header
     {
         margin: auto;
-    }
-    h1
+        display: flex;
+    }   
+     h1
     {
         margin: 0;
     }
@@ -483,9 +502,14 @@ li:focus
    .sign-in
    {
        order: -2;
-       width: 100%;
+       display: flex;
+
+   }
+   #menu
+   {
+       display: flex;
        justify-content: flex-end;
-       
+       flex-flow: row wrap;
    }
    #filter
    {
@@ -505,13 +529,16 @@ li:focus
    {
        display: flex;
        flex-direction: column;
-       height: auto;
-   }
+       justify-content: space-between;
+    }
    aside
    {
        order: -1;
        width: 100%;
        margin: 0;
+       display: flex;
+       flex-direction: column;
+       
    }
    .price, .family, .romantic
    {
@@ -523,14 +550,11 @@ li:focus
        display: flex;
        flex-direction: column;
        background: none;
-       height: auto;
    }
    #activities
    {
-     
        display: flex;
        flex-direction: column;
-       height: auto;
    }
    footer
    {
