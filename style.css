@@ -169,14 +169,13 @@ input
     align-items: center;
     padding: 10px;
 }
-.info span
+.fa-info
 {
     color: #0065FC;
-    border: 1px solid #D3D3D3;
-    border-radius: 100%;
-    padding: 5px;
-    font-size: small;
-  
+}
+.fa-circle
+{
+    color: #F2F2F2;
 }
 
 .info p
