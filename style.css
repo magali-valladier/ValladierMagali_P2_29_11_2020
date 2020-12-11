@@ -441,17 +441,17 @@ footer
     body 
     {
     width: auto;
-    margin: auto;
+    margin: 0;
+    
     }
-   header
+   #navbar
    {
        display: flex;
        justify-content: space-between;
        flex-wrap: wrap;
    }
-   nav ul 
+   .sign-in
    {
-       display: flex;
-      
+       order: 1;
    }
 }
