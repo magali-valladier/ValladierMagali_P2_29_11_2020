@@ -2,7 +2,8 @@
 
 body
 {
-    margin: 0;
+    width: 1550px;
+    margin: auto;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
 }
