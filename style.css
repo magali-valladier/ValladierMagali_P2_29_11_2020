@@ -412,6 +412,10 @@ aside
   box-shadow: 8px 8px 12px #aaa;
   border-radius: 25px;
 }
+.pomegues, .dame
+{
+    padding-bottom: 2px;
+}
 #main-visit img
 {
     opacity: 1;
@@ -429,7 +433,8 @@ footer
    margin-top: 40px;
    padding-left: 40px;
    background: #F2F2F2;
-    display: flex;
+   display: flex;
+   width: 100%;
 }
 .footer
 {
