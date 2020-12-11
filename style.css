@@ -169,13 +169,12 @@ input
     align-items: center;
     padding: 10px;
 }
-.fa-info 
+.info span
 {
     color: #0065FC;
     border: 1px solid #D3D3D3;
     border-radius: 100%;
-    font-weight: normal;
-    padding: 0 5px;
+    padding: 5px;
     font-size: small;
   
 }
@@ -459,7 +458,7 @@ footer
 }
 /* MEDIA QUERIES */
 
-@media screen and (max-device-width:640px)
+@media screen and (max-device-width:980px)
 {
     body 
     {
