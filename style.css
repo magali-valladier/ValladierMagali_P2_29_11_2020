@@ -434,3 +434,24 @@ footer
 {
     font-weight: bold;
 }
+/* MEDIA QUERIES */
+
+@media screen and (max-device-width:980px)
+{
+    body 
+    {
+    width: auto;
+    margin: auto;
+    }
+   header
+   {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   nav ul 
+   {
+       display: flex;
+      
+   }
+}
