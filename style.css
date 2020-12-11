@@ -19,11 +19,9 @@ header
     display: flex;
     justify-content: space-between;
 }
-
 ul
 {
     display: flex;
-    align-content: center;
 }
 #navbar nav ul li
 {
@@ -46,6 +44,12 @@ border-top: 3px solid #0065FC;
 li:focus
 {
 border-top: 3px solid #0065FC;
+}
+.sign-in
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .sign-in a
 {
