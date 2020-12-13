@@ -461,19 +461,21 @@ footer
 {
     body 
     {
-    width: 100%;
-    margin-left: 15px;
+        width: auto;
+    margin: auto;
     vertical-align: middle;
-    margin-right: 0;
+    padding: 15px 0px 0px 0px;
     }
     header
     {
-        margin: auto;
+        margin-left: 15px;
         display: flex;
     }   
      h1
     {
         margin: 0;
+        width: 50%;
+        position: absolute;
     }
    #navbar
    {
@@ -484,6 +486,7 @@ footer
    {
        display: flex;
        justify-content: flex-start;
+       width: 100%;
    }
    nav ul
    {
@@ -502,12 +505,14 @@ li:focus
 }
 #search
 {
-    margin: 0;
+    margin-left: 15px;
 }
    .sign-in
    {
        order: -2;
        display: flex;
+      padding: 20px 20px 0px 0px;
+       
    }
    #menu
    {
@@ -517,7 +522,7 @@ li:focus
    }
    #filter
    {
-       margin: 0;
+       margin-left: 15px;
    }
    .filter
    {
@@ -538,12 +543,15 @@ li:focus
        display: flex;
        flex-direction: column;
        margin: 0;
+       width: 100%;
    }
-
+    .main-container
+    
    aside
    {
        order: -1;
-       margin: 0;
+       padding: 0;
+       border-radius: 0;
     }
     #aside
     {
@@ -618,8 +626,6 @@ li:focus
    {
        display: flex;
        flex-direction: column;
-       width: auto;
-       padding: 0;
     }
    .footer
    {
