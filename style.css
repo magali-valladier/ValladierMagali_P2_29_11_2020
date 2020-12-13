@@ -464,6 +464,7 @@ footer
     width: 100%;
     margin-left: 15px;
     vertical-align: middle;
+    margin-right: 0;
     }
     header
     {
@@ -554,43 +555,72 @@ li:focus
        flex-direction: column;
        background: none;
        height: auto;
+       width: 400px;
    }
-   #activities
-   {
-       margin: 0;
-   }
-   #main-rooms
+    #main-rooms
    {
        display: flex;
        flex-direction: column;
+       width: 100%;
        background: none;
     }
+    .rooms-title
+    {
+        margin-left: 15px;
+    }
+    .rooms
+    {
+        width: auto;
+    }
+    .rooms figure
+    {
+        width: auto;
+    }
+    .rooms img
+    {
+        object-fit: cover;
+        width: 100%;
+    }
+    .more
+    {
+        margin-left: 15px;
+    }
+    #activities
+   {
+       margin-left: 15px;
+       width: 100%;
+   }
    #main-visit
    {
        display: flex;
        flex-direction: column;
+       width: 100%;
+       margin:0;
     }
-   #main-visit img
-   {
-       width: 300px;
-       height: 200px;
-   }
    #main-visit figure
    {
-       width: 300px;
+       width: 100%;
        margin: 0;
     } 
     .vieuxp, .pom-fri, .calanques, .dame, .pomegues
     {
         padding-bottom: 10px;
+        width: auto;
     }
+    .vieuxp img, .pom-fri img, .calanques img, .dame img, .pomegues img
+    {
+        object-fit: cover;
+        width: auto;
+        height: 200px;
+    }
+    
    footer
    {
        display: flex;
        flex-direction: column;
-       width: 100%;
+       width: auto;
        padding: 0;
-   }
+    }
    .footer
    {
        padding: 0;
