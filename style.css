@@ -379,7 +379,9 @@ aside
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
-    width: 300px;
+      opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .vieuxp img, .calanques img
 {
@@ -413,12 +415,6 @@ aside
 .pomegues, .dame
 {
     padding-bottom: 2px;
-}
-#main-visit img
-{
-    opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 #main-visit img:hover
 {
@@ -538,6 +534,7 @@ li:focus
    {
      margin-bottom: 15px;
    }
+   
    #container
    {
        display: flex;
@@ -613,12 +610,12 @@ li:focus
     .vieuxp, .pom-fri, .calanques, .dame, .pomegues
     {
         padding-bottom: 10px;
-        width: auto;
+        width: 100%;
     }
     .vieuxp img, .pom-fri img, .calanques img, .dame img, .pomegues img
     {
         object-fit: cover;
-        width: auto;
+        width: 100%;
         height: 200px;
     }
     
