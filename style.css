@@ -459,7 +459,7 @@ opacity: .5;
 {
     body 
     {
-    width: 100%;
+    width: auto;
     padding-top: 15px;
     }
     header
@@ -473,33 +473,23 @@ opacity: .5;
         width: 50%;
         position: absolute;
     }
-   #navbar
+   .menu
    {
        display: flex;
        flex-wrap: wrap;
-       width: 100%;
-   }
-   #menu
-   {
-       width: 100%;
-       display: flex;
-       justify-content: space-between;
-   }
-   nav
-   {
-       display: flex;
+       align-items: center;
        justify-content: space-between;  
     }
     nav ul
     {
         padding: 0;
+        border-bottom: 2px solid #F2F2F2;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
     }
-    nav ul li 
-    {
-       border-bottom: 2px solid #F2F2F2;
-    }
-   
-li:hover
+   li:hover
 {
     border-bottom: 3px solid #0065FC;
     border-top: none;
