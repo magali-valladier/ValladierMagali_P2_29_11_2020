@@ -484,6 +484,11 @@ opacity: .5;
        margin: 0;
        padding: 0;
    }
+   li
+   {
+       border-bottom: 2px solid #F2F2F2;
+       margin-bottom: 10px;
+   }
    li:hover
 {
     border-bottom: 3px solid #0065FC;
@@ -497,6 +502,12 @@ li:focus
 #search
 {
     margin-left: 15px;
+}
+.search-button
+{
+    background: url(images/logo/search-solid.svg);
+    background-repeat: no-repeat;
+    background-color: #0065FC;
 }
    .sign-in
    {
