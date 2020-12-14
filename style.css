@@ -464,32 +464,39 @@ opacity: .5;
     }
     header
     {
-        margin-left: 15px;
         display: flex;
+        margin: 0;
+        width: 100%;
     }   
      h1
     {
         margin: 0;
         width: 50%;
         position: absolute;
+        padding-left: 15px;
     }
-   .menu
-   {
-       display: flex;
-       flex-wrap: wrap;
-       align-items: center;
-       justify-content: space-between;  
+    #menu, #navbar
+    {
+        width: 100%;
     }
     nav ul
     {
         padding: 0;
         border-bottom: 2px solid #F2F2F2;
-        display: flex;
-        position: relative;
-        justify-content: space-between;
         width: 100%;
+     }
+     nav
+     {
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+     }
+    li
+    {
+        flex-basis: 50%;
     }
-   li:hover
+    li:hover
 {
     border-bottom: 3px solid #0065FC;
     border-top: none;
@@ -513,11 +520,11 @@ li:focus
    border: 10px solid #0065FC;
    border-radius: 10px;
    display: flex;
+   
 }
 .fa-search
 {
     color: #ffffff;
-      
 }
 .sign-in
    {
