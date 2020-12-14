@@ -511,6 +511,7 @@ li:focus
 {
    background: #0065FC;
    border: 10px solid #0065FC;
+   border-radius: 10px;
    display: flex;
 }
 .fa-search
