@@ -13,6 +13,7 @@ body
 header
 {
     margin-left: 50px;
+    margin-right: 50px;
 }
 #navbar
 {
@@ -103,6 +104,10 @@ border-top: 3px solid #0065FC;
    border-bottom-left-radius: 15px;
    background: #F2F2F2; 
    
+}
+.search 
+{
+    display: none;
 }
 input
 {
@@ -505,10 +510,24 @@ li:focus
 }
 .search-button
 {
-    background: url(images/logo/search-solid.svg);
-    background-repeat: no-repeat;
-    background-color: #0065FC;
+    display: none;
 }
+.search
+{
+    background-color: #0065FC;
+    display: flex;
+    border-radius: 50%;
+}
+.fa-search
+{
+    color: #ffffff;
+    background: none;
+}
+.search i
+{
+    color: #ffffff;
+}
+
    .sign-in
    {
        order: -2;
@@ -644,4 +663,5 @@ li:focus
    {
        padding: 5px;
    }
+
 }
