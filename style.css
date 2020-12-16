@@ -304,12 +304,6 @@ input
 	-webkit-transform: scale(0.5);
 	transform: scale(0.5);
 }
-{
-    width: 235px;
-    height: 125px;
-   border-radius: 100%;
-    object-fit: cover;
-}
 aside
 {
     display: flex;
@@ -418,6 +412,10 @@ aside
 .pomegues, .dame
 {
     padding-bottom: 2px;
+}
+.vieuxp h3, .calanques h3, .pomegues h3, .frioul h3, .dame h3, .longchamp h3
+{
+    padding-left: 10px;
 }
 #main-visit img:hover
 {
