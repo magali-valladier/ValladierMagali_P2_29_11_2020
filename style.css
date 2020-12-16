@@ -585,9 +585,9 @@ li:focus
     {
         width: 100%;
     }
-    .aside
+    .aside span
     {
-        width: auto;
+        margin: 0;
     }
     .aside figure
     {
