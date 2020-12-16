@@ -506,7 +506,8 @@ li:focus
 }
 #search
 {
-    margin-left: 15px;
+    padding-left: 15px;
+    margin: 0;
 }
 .search-button
 {
@@ -531,6 +532,11 @@ li:focus
       padding: 20px 20px 0px 0px;
        
    }
+   .main-container
+   {
+       margin: 0;
+       width: 100%;
+   }
    #menu
    {
        display: flex;
@@ -539,7 +545,8 @@ li:focus
    }
    #filter
    {
-       margin-left: 15px;
+       padding-left: 15px;
+       margin: 0;
    }
    .filter
    {
@@ -550,6 +557,7 @@ li:focus
    .filter-title
    {
        width: 100%;
+       margin: 0;
    }
    .price, .family, .romantic
    {
@@ -611,12 +619,14 @@ li:focus
     }
     .more
     {
-        margin-left: 15px;
+        padding-left: 15px;
+        margin: 0;
     }
     #activities
    {
-       margin-left: 15px;
+       padding-left: 15px;
        width: 100%;
+       margin: 0;
    }
    #main-visit
    {
