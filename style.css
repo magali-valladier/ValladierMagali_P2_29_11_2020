@@ -165,8 +165,8 @@ input
 }
 .price h3, .family h3, .romantic h3, .animal h3
 {
-    margin-right: 20px;
-    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .info
 {
@@ -554,8 +554,11 @@ li:focus
    .price, .family, .romantic
    {
      margin-bottom: 15px;
+  }
+   .price, .family
+   {
+       margin-right: 0;
    }
-   
    #container
    {
        display: flex;
