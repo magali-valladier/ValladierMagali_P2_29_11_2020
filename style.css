@@ -127,6 +127,7 @@ input
 }
 .search-button
 {
+    cursor: pointer;
     border: 10px solid #0065FC;
     background: #0065FC;
     color: #ffffff;
