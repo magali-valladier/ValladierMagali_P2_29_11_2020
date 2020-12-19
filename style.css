@@ -17,11 +17,15 @@ header
 }
 #navbar
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
 }
 ul
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
 }
 #navbar nav ul li
@@ -36,6 +40,8 @@ li a
 }
 #menu
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -46,20 +52,22 @@ li a:hover
 }
 li:hover
 {
-border-top: 3px solid #0065FC;
+    border-top: 3px solid #0065FC;
 }
 li:focus
 {
-border-top: 3px solid #0065FC;
+    border-top: 3px solid #0065FC;
 }
 .sign-in
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
 .sign-in a
 {
-    color: #0065FC;
+     color: #0065FC;
      text-decoration: none;
      font-weight: bold;
 }
@@ -89,10 +97,12 @@ border-top: 3px solid #0065FC;
 
 #search
 {
-        margin-left: 50px;
+    margin-left: 50px;
 }
 #search-bar
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -133,6 +143,8 @@ input
 }
 .filter
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -143,6 +155,8 @@ input
 }
 .price, .family, .romantic, .animal
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     border: 2px solid #F2F2F2;
@@ -170,6 +184,8 @@ input
 }
 .info
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -191,6 +207,8 @@ input
 
 #container
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -204,6 +222,8 @@ input
  }
 #main-rooms
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -256,7 +276,7 @@ input
 .fa-star.grey
 {
     color: #F2F2F2;
-     font-size: small;
+    font-size: small;
 }     
 .rooms figure
 {
@@ -306,6 +326,8 @@ input
 }
 aside
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     background: #F2F2F2;
@@ -317,6 +339,8 @@ aside
 }
 .aside-title
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -330,6 +354,8 @@ aside
 }
 .aside figure
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     background: #ffffff;
     border: 2px solid #ffffff;
@@ -338,6 +364,8 @@ aside
 }
 #aside
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
 }
@@ -366,6 +394,8 @@ aside
 
 #main-visit
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
 }
 #main-visit img
@@ -415,7 +445,7 @@ aside
 }
 #main-visit img:hover
 {
-opacity: .5;
+    opacity: .5;
 }
 .activities
 {
@@ -427,11 +457,15 @@ opacity: .5;
 {
    margin-top: 40px;
    background: #F2F2F2;
+   display: -o-flexblox;
+   display: -ms-flexbox;
    display: flex;
    width: 100%;
  }
 .footer
 {
+    display: -o-flexblox;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     padding: 30px;
