@@ -486,7 +486,7 @@ aside
 {
     font-weight: bold;
 }
-/* MEDIA QUERIES */
+/*                                                              MEDIA QUERIES                                                               */
 
 @media screen and (max-width:980px)
 {
@@ -714,5 +714,231 @@ li:focus
    {
        padding: 5px;
    }
-
+}
+@media screen and (max-width: 1024px)
+{
+    body 
+    {
+    width: auto;
+    padding-top: 15px;
+    }
+    header
+    {
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }   
+     h1
+    {
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        padding-left: 15px;
+    }
+    #menu, #navbar
+    {
+        width: 100%;
+    }
+    nav ul
+    {
+        padding: 0;
+        border-bottom: 2px solid #F2F2F2;
+        width: 100%;
+     }
+     nav
+     {
+         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+     }
+    li
+    {
+        flex-basis: 50%;
+    }
+    li:hover
+{
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+li:focus
+{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+}
+#search
+{
+    padding-left: 15px;
+    margin: 0;
+}
+.search-button
+{
+    display: none;
+}
+.search
+{
+   background: #0065FC;
+   border: 10px solid #0065FC;
+   border-radius: 10px;
+   display: flex;
+   
+}
+.fa-search
+{
+    color: #ffffff;
+}
+.sign-in
+   {
+       order: -2;
+       display: flex;
+      padding: 20px 20px 0px 0px;
+       
+   }
+   .main-container
+   {
+       width: 100%;
+   }
+   #menu
+   {
+       display: flex;
+       justify-content: flex-end;
+       flex-flow: row wrap;
+   }
+   #filter
+   {
+       padding-left: 15px;
+       margin: 0;
+   }
+   .filter
+   {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   .filter-title
+   {
+       width: 100%;
+       margin: 0;
+   }
+   .price, .family, .romantic
+   {
+     margin-bottom: 15px;
+  }
+   .price, .family
+   {
+       margin-right: 0;
+   }
+   #container
+   {
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+       width: 100%;
+   }
+   aside
+   {
+       order: -1;
+       padding: 0;
+       border-radius: 0;
+       margin: 0;
+       width: 100%;
+    }
+    #aside
+    {
+        width: 100%;
+    }
+    .aside span
+    {
+        margin: 0;
+    }
+    .aside figure
+    {
+        width: auto;
+    }
+   #rooms
+   {
+       display: flex;
+       flex-direction: column;
+       background: none;
+       height: auto;
+       width: 100%;
+   }
+    #main-rooms
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       background: none;
+    }
+    .rooms-title
+    {
+        margin-left: 15px;
+    }
+    .rooms
+    {
+        width: auto;
+    }
+    .rooms figure
+    {
+        width: auto;
+    }
+    .rooms img
+    {
+        object-fit: cover;
+        width: 100%;
+    }
+    .more
+    {
+        padding-left: 15px;
+        margin: 0;
+    }
+    #activities
+   {
+       width: 100%;
+       margin: 0;
+   }
+   .activities
+   {
+       padding-left: 15px;
+   }
+   #main-visit
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+    
+   #main-visit figure
+   {
+       margin: 10px;
+    } 
+    .vieuxp, .pom-fri, .calanques, .dame, .pomegues
+    {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .vieuxp h3, .pom-fri h3, .calanques h3, .dame h3, .pomegues h3
+    {
+        padding-left: 10px;
+    }
+    #main-visit img
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
+    #footer
+    {
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 10px;
+    }
+   .footer
+   {
+       padding-left: 20px;
+   }
+   .footer a
+   {
+       padding: 5px;
+   }
 }
