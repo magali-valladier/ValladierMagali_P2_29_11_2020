@@ -2,12 +2,15 @@
 
 body
 {
-    width: 100%;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
+    width: 100%;
     margin: 0;
 }
-
+*
+{
+    box-sizing: border-box;
+}
 /* HEADER */
 
 header
@@ -17,15 +20,11 @@ header
 }
 #navbar
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
 }
 ul
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
 }
 #navbar nav ul li
@@ -40,8 +39,6 @@ li a
 }
 #menu
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -60,8 +57,6 @@ li:focus
 }
 .sign-in
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -74,13 +69,15 @@ li:focus
 .sign-in a:hover
 {
     color: #0065FC;
-    
 }
 #menu span:hover
 {
     border-top: 3px solid #0065FC;
 }
-
+.main-container
+{
+    width: 100%;
+}
 /* MAIN TITLE */
 
 #main-title p
@@ -101,8 +98,6 @@ li:focus
 }
 #search-bar
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -140,12 +135,10 @@ input
 
 #filter
 {
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .filter
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -208,35 +201,31 @@ input
 
 #container
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 50px;
 }
 #rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 990px;
-    height: 600px;
- }
+    width: 60em;
+}
 #main-rooms
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .rooms
 {
     border-radius: 25px;
-    width: 240px;
-    height: 235px;
-    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 .rooms p, .rooms h4
 {
@@ -244,22 +233,16 @@ input
 }
 .rooms img
 {
-    width: 235px;
-    height: 125px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    object-fit: cover;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   object-fit: cover;
+   width: 17em;
+   height: 8em;
 }
-.rooms :hover
-{
-    width: 235px;
-    height: 125px;
-    border-radius: 100%;
-    object-fit: cover;
-}
+
 .rooms-title
 {
-    margin: 20px 0px 20px 70px;
+    padding: 20px 0px 20px 20px;
     font-weight: bold;
     font-size: 1em;
 }
@@ -286,6 +269,8 @@ input
     border: 2px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
+    width: 17.5em;
+    height: 14em;
 }
 .rooms figcaption p
 {
@@ -303,15 +288,15 @@ input
 }
 .more
 {
-  margin-left: 70px;
+  padding: 20px;
 }
 
 /* ASIDE */
 
 .aside img
 {
-    width: 125px;
-    height: 125px;
+    width: 8em;
+    height: 8em;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -331,26 +316,22 @@ input
 }
 aside
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     background: #F2F2F2;
     border-radius: 25px;
     float: right;
-    width: 400px;
-    height: 600px;
-    margin-right: 50px;
+    width: 25em;
+    height: auto;
+   
 }
 .aside-title
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 0px 20px 20px;
     font-size: 1em;
 }
 .aside p
@@ -359,18 +340,14 @@ aside
 }
 .aside figure
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     background: #ffffff;
-    border: 2px solid #ffffff;
+    border: 4px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
 }
 #aside
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
 }
@@ -492,11 +469,11 @@ aside
 }
 /*                                                              MEDIA QUERIES                                                               */
 
-@media screen and (max-width:980px)
+@media screen and (min-width: 320px) and (max-width: 1280px)
 {
     body 
     {
-    width: auto;
+    width: 100%;
     padding-top: 15px;
     }
     header
@@ -573,7 +550,7 @@ li:focus
    }
    .main-container
    {
-       width: 100%;
+       width: auto;
    }
    #menu
    {
@@ -610,234 +587,7 @@ li:focus
        display: flex;
        flex-direction: column;
        margin: 0;
-       width: 100%;
-   }
-   aside
-   {
-       order: -1;
-       padding: 0;
-       border-radius: 0;
-       margin: 0;
-       width: 100%;
-    }
-    #aside
-    {
-        width: 100%;
-    }
-    .aside span
-    {
-        margin: 0;
-    }
-    .aside figure
-    {
-        width: auto;
-    }
-   #rooms
-   {
-       display: flex;
-       flex-direction: column;
-       background: none;
-       height: auto;
-       width: 100%;
-   }
-    #main-rooms
-   {
-       display: flex;
-       flex-direction: column;
-       width: 100%;
-       background: none;
-    }
-    .rooms-title
-    {
-        margin-left: 15px;
-    }
-    .rooms
-    {
-        width: auto;
-    }
-    .rooms figure
-    {
-        width: auto;
-    }
-    .rooms img
-    {
-        object-fit: cover;
-        width: 100%;
-    }
-    .more
-    {
-        padding-left: 15px;
-        margin: 0;
-    }
-    #activities
-   {
-       width: 100%;
-       margin: 0;
-   }
-   .activities
-   {
-       padding-left: 15px;
-   }
-   #main-visit
-   {
-       display: flex;
-       flex-direction: column;
-       width: 100%;
-    }
-    
-   #main-visit figure
-   {
-       margin: 10px;
-    } 
-    .vieuxp, .pom-fri, .calanques, .dame, .pomegues
-    {
-        padding-bottom: 10px;
-        width: 100%;
-    }
-    .vieuxp h3, .pom-fri h3, .calanques h3, .dame h3, .pomegues h3
-    {
-        padding-left: 10px;
-    }
-    #main-visit img
-    {
-        object-fit: cover;
-        width: 100%;
-        height: 200px;
-    }
-    #footer
-    {
-       display: flex;
-       flex-direction: column;
-       padding-bottom: 10px;
-    }
-   .footer
-   {
-       padding-left: 20px;
-   }
-   .footer a
-   {
-       padding: 5px;
-   }
-}
-@media screen and (max-width: 1024px)
-{
-    body 
-    {
-    width: auto;
-    padding-top: 15px;
-    }
-    header
-    {
-        display: flex;
-        margin: 0;
-        width: 100%;
-    }   
-     h1
-    {
-        margin: 0;
-        width: 50%;
-        position: absolute;
-        padding-left: 15px;
-    }
-    #menu, #navbar
-    {
-        width: 100%;
-    }
-    nav ul
-    {
-        padding: 0;
-        border-bottom: 2px solid #F2F2F2;
-        width: 100%;
-     }
-     nav
-     {
-         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-     }
-    li
-    {
-        flex-basis: 50%;
-    }
-    li:hover
-{
-    border-bottom: 3px solid #0065FC;
-    border-top: none;
-}
-li:focus
-{
-    border-top: none;
-    border-bottom: 3px solid #0065FC;
-}
-#search
-{
-    padding-left: 15px;
-    margin: 0;
-}
-.search-button
-{
-    display: none;
-}
-.search
-{
-   background: #0065FC;
-   border: 10px solid #0065FC;
-   border-radius: 10px;
-   display: flex;
-   
-}
-.fa-search
-{
-    color: #ffffff;
-}
-.sign-in
-   {
-       order: -2;
-       display: flex;
-      padding: 20px 20px 0px 0px;
-       
-   }
-   .main-container
-   {
-       width: 100%;
-   }
-   #menu
-   {
-       display: flex;
-       justify-content: flex-end;
-       flex-flow: row wrap;
-   }
-   #filter
-   {
-       padding-left: 15px;
-       margin: 0;
-   }
-   .filter
-   {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-   }
-   .filter-title
-   {
-       width: 100%;
-       margin: 0;
-   }
-   .price, .family, .romantic
-   {
-     margin-bottom: 15px;
-  }
-   .price, .family
-   {
-       margin-right: 0;
-   }
-   #container
-   {
-       display: flex;
-       flex-direction: column;
-       margin: 0;
-       width: 100%;
+      
    }
    aside
    {
