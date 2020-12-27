@@ -237,7 +237,13 @@ input
    width: 17em;
    height: 8em;
 }
-
+.rooms :hover
+{
+    width: 235px;
+    height: 125px;
+    border-radius: 100%;
+    object-fit: cover;
+}
 .rooms-title
 {
     padding: 20px 0px 20px 20px;
