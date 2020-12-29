@@ -4,7 +4,6 @@ body
 {
     font-family: Raleway, sans-serif;
     font-size: 1rem;
-    
     margin: 0;
 }
 *
@@ -177,11 +176,8 @@ input
 }
 .info
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
-    padding: 10px;
 }
 .fa-info
 {
@@ -711,8 +707,8 @@ li:focus
     body {
         margin: auto;
         padding: auto;
-        width: 1400px;
-        overflow: hidden;
+        width: 100%;
+        overflow-x: hidden;
     }
     
 }
