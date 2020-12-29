@@ -706,3 +706,13 @@ li:focus
        padding: 5px;
    }
 }
+@media screen and (min-width: 1400px)
+{
+    body {
+        margin: auto;
+        padding: auto;
+        width: 1400px;
+        overflow: hidden;
+    }
+    
+}
