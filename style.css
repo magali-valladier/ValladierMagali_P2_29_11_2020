@@ -5,6 +5,7 @@ body
     font-family: Raleway, sans-serif;
     font-size: 1rem;
     margin: 0;
+    width: 100%;
 }
 *
 {
@@ -470,7 +471,7 @@ aside
 }
 /*                                                              MEDIA QUERIES                                                               */
 
-@media screen and (max-width: 1280px)
+@media screen and (min-width: 200px) and (max-width: 1280px)
 {
     body 
     {
@@ -553,7 +554,7 @@ li:focus
    }
    .main-container
    {
-       width: auto;
+       width: 100%;
    }
    #menu
    {
@@ -576,8 +577,7 @@ li:focus
    .filter-title
    {
        width: 100%;
-       
-       margin: 0;
+        margin: 0;
    }
    .price, .family, .romantic
    {
@@ -702,13 +702,9 @@ li:focus
        padding: 5px;
    }
 }
-@media screen and (min-width: 1400px)
-{
+@media screen and (min-width: 1650px) {
     body {
+        width: 1600px;
         margin: auto;
-        padding: auto;
-        width: 1400px;
-        overflow-x: hidden;
     }
-    
 }
