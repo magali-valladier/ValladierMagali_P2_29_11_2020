@@ -5,7 +5,7 @@ body
     font-family: Raleway, sans-serif;
     font-size: 1rem;
     margin: 0;
-    width: 100%;
+    max-width: 1600px;
 }
 *
 {
@@ -16,6 +16,7 @@ body
 header
 {
     margin: 0 50px;
+    max-width: 1600px;
 }
 #navbar
 {
@@ -75,7 +76,7 @@ li:focus
 }
 .main-container
 {
-    width: 100%;
+    max-width: 1600px;
 }
 /* MAIN TITLE */
 
@@ -579,14 +580,9 @@ li:focus
        width: 100%;
         margin: 0;
    }
-   .price, .family, .romantic
-   {
-     margin-bottom: 15px;
+  .info {
+      padding: 10px 0;
   }
-   .price, .family
-   {
-       margin-right: 0;
-   }
    #container
    {
        display: flex;
@@ -702,7 +698,7 @@ li:focus
        padding: 5px;
    }
 }
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1601px) {
     body {
         width: 1600px;
         margin: auto;
