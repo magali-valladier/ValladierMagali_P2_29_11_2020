@@ -79,7 +79,7 @@ li:focus
 }
 .main-container
 {
-    max-width: 1600px;
+    max-width: 100%;
 }
 /* MAIN TITLE */
 
@@ -308,7 +308,7 @@ input
 
 .aside img
 {
-    width: 100%;
+    width: 8em;
     height: 8em;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -343,7 +343,6 @@ aside
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     width: 100%;
     padding: 20px;
     font-size: 1em;
@@ -388,6 +387,11 @@ aside
 }
 /* ACTIVITIES */
 
+#activities {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 #main-visit
 {
     display: -o-flexblox;
@@ -489,7 +493,7 @@ aside
     {
         width: 100%;
         padding-top: 15px;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     header
     {
@@ -598,6 +602,7 @@ aside
    {
        display: flex;
        flex-direction: column;
+       justify-content: space-between;
        padding: 0;
    }
    aside
@@ -627,7 +632,6 @@ aside
        background: none;
        height: auto;
        width: 100%;
-       margin-right: 10px;
     }
     #main-rooms
     {
@@ -648,6 +652,7 @@ aside
     .rooms figure
     {
         width: auto;
+        margin: 16px 40px;
     }
     .rooms img
     {
@@ -668,8 +673,7 @@ aside
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 17px;
-    }
+   }
    .activities
    {
        padding-left: 15px;
@@ -715,9 +719,14 @@ aside
        padding: 5px;
    }
 }
-@media screen and (min-width: 1388px) {
+@media screen and (min-width: 601px) and (max-width: 1299px) {
     body {
-        width: 1600px;
-        margin: auto;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    body {
+        max-width: 1600px;
+        overflow-x: hidden;
     }
 }
