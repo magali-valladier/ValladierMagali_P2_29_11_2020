@@ -47,6 +47,9 @@ li a:hover
 {
     color: #0065FC;
 }
+li {
+    border-top: 3px solid #fff;
+}
 li:hover
 {
     border-top: 3px solid #0065FC;
@@ -62,9 +65,10 @@ li:focus
 }
 .sign-in a
 {
-     color: #0065FC;
-     text-decoration: none;
-     font-weight: bold;
+    color: #0065FC;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
 }
 .sign-in a:hover
 {
@@ -168,7 +172,7 @@ input
 {
     color: #0065FC;
     background: #DEEBFF;
-    border: 15px solid #DEEBFF;
+    border: 13px solid #DEEBFF;
     border-radius: 100%;
 }
 .price h3, .family h3, .romantic h3, .animal h3
@@ -477,8 +481,8 @@ aside
 {
     body 
     {
-    width: 100%;
-    padding-top: 15px;
+        width: 100%;
+        padding-top: 15px;
     }
     header
     {
@@ -506,7 +510,7 @@ aside
      }
      nav
      {
-         display: flex;
+        display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
@@ -517,47 +521,45 @@ aside
         flex-basis: 50%;
     }
     li:hover
-{
-    border-bottom: 3px solid #0065FC;
-    border-top: none;
-}
-li:focus
-{
-    border-top: none;
-    border-bottom: 3px solid #0065FC;
-}
-#search
-{
-    padding-left: 15px;
-    margin: 0;
-}
-.search-button
-{
-    display: none;
-}
-.search
-{
-   background: #0065FC;
-   border: 10px solid #0065FC;
-   border-radius: 10px;
-   display: flex;
-   
-}
-.fa-search
-{
-    color: #ffffff;
-}
-.sign-in
-   {
+    {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+    li:focus
+    {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+    #search
+    {
+        padding-left: 15px;
+        margin: 0;
+    }
+    .search-button
+    {
+        display: none;
+    }
+    .search
+    {
+        background: #0065FC;
+        border: 10px solid #0065FC;
+        border-radius: 10px;
+        display: flex;
+    }
+    .fa-search
+    {
+        color: #ffffff;
+    }
+    .sign-in
+    {
        order: -2;
        display: flex;
-      padding: 20px 20px 0px 0px;
-       
-   }
+       padding: 20px 20px 0px 0px;
+    }
    .main-container
-   {
+    {
        width: 100%;
-   }
+    }
    #menu
    {
        display: flex;
@@ -591,7 +593,6 @@ li:focus
        display: flex;
        flex-direction: column;
        padding: 0;
-      
    }
    aside
    {
@@ -613,16 +614,17 @@ li:focus
     {
         width: auto;
     }
-   #rooms
-   {
+    #rooms
+    {
        display: flex;
        flex-direction: column;
        background: none;
        height: auto;
        width: 100%;
-   }
+       margin-right: 10px;
+    }
     #main-rooms
-   {
+    {
        display: flex;
        flex-direction: column;
        width: 100%;
@@ -652,22 +654,21 @@ li:focus
         margin: 0;
     }
     #activities
-   {
+    {
        width: 100%;
        margin: 0;
-   }
+    }
    .activities
    {
        padding-left: 15px;
    }
-   #main-visit
-   {
+    #main-visit
+    {
        display: flex;
        flex-direction: column;
        width: 100%;
     }
-    
-   #main-visit figure
+    #main-visit figure
    {
        margin: 10px;
     } 
