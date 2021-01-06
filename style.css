@@ -131,8 +131,8 @@ input
     background: #0065FC;
     color: #ffffff;
     border-top-right-radius: 15px;
-   border-bottom-right-radius: 15px;
-   height: 2.7em;
+    border-bottom-right-radius: 15px;
+    height: 2.7em;
 }
 
 /* FILTER SECTION */
@@ -153,8 +153,6 @@ input
 }
 .price, .family, .romantic, .animal
 {
-    display: -o-flexblox;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     border: 2px solid #F2F2F2;
@@ -162,6 +160,7 @@ input
     border-left: none;
     margin-right: 25px;
     height: 2.8em;
+    cursor: pointer;
 }
 .filter-title
 {
