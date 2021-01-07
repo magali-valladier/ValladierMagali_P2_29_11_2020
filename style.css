@@ -651,7 +651,6 @@ aside
     #main-rooms
     {
        display: flex;
-       width: 100%;
        background: none;
     }
     .rooms-title
