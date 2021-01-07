@@ -404,6 +404,7 @@ aside
     display: -o-flexblox;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
 }
 #main-visit img
 {
@@ -441,7 +442,7 @@ aside
   border: 1px solid transparent;
   border-radius: 25px;
   box-sizing: border-box;
-}
+ }
 .pomegues, .dame
 {
     padding-bottom: 2px;
@@ -772,7 +773,33 @@ aside
     }
     
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+    body {
+        width: auto;
+    }
+    header {
+        max-width: 100rem;
+        margin:auto;
+    }
+    #rooms {
+        margin-right: 15px;
+    }
+    .main-container {
+        max-width: 100rem;
+        margin: auto;
+    }
+    #main-visit {
+        width: 100%;
+    }
+    #main-visit figure {
+         margin: 13px 10px;
+    }
+    footer {
+        max-width: 100rem;
+        margin:auto;
+    }
+}
+@media screen and (min-width: 1600px) {
     body {
         body: 100%;
         margin: auto;
@@ -781,9 +808,6 @@ aside
     header {
         max-width: 100rem;
         margin:auto;
-    }
-    #rooms {
-        margin-right: 15px;
     }
     .main-container {
         max-width: 100rem;
