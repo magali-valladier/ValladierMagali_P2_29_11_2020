@@ -578,6 +578,7 @@ aside
     {
        order: -2;
        display: flex;
+       padding-top: 40px;
     }
    .main-container
     {
