@@ -649,7 +649,6 @@ aside
     #main-rooms
     {
        display: flex;
-       flex-direction: column;
        width: 100%;
        background: none;
     }
@@ -659,7 +658,7 @@ aside
     }
     .rooms
     {
-        width: 100%;
+        width: 50%;
         padding: 10px;
     }
     .rooms figure
