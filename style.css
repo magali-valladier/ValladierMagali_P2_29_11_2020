@@ -79,11 +79,9 @@ li:focus
 .sign-in a:hover
 {
     color: #0065FC;
-}
-#menu span:hover
-{
     border-top: 3px solid #0065FC;
 }
+
 .main-container
 {
     max-width: 100%;
