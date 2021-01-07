@@ -663,11 +663,6 @@ aside
         
         padding: 10px;
     }
-    .rooms figure
-    {
-        width: auto;
-        margin: 16px 40px;
-    }
     .rooms img
     {
         object-fit: cover;
